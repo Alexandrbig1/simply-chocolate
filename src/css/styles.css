@@ -1,0 +1,31 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./benefits.css');
+@import url('./components.css');
+@import url('./scroll-up.css');
+@import url('./how-its-made.css');
+@import url('./our-products.css');
+@import url('./top-sellers.css');
+@import url('./chocolate-is-loved.css');
+@import url('./footer.css');
+@import url('./modal-buy-now.css');
+@import url('./leave-review-modal.css');
+@import url('./subscribe.css');
+@import url('./subscribe-modal-window.css');
+@import url('./sticky-header.css');
+
+:root {
+  --primary-font: Montserrat, sans-serif;
+  --main-dark-font-color: rgba(17, 17, 17, 1);
+  --main-light-font-color: #ffffff;
+  --accent-color: rgba(253, 146, 34, 1);
+  --main-dark-background-color: rgba(30, 24, 35, 1);
+  --transition-main: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}

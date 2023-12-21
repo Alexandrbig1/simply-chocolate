@@ -1,0 +1,17 @@
+/* ***** STICKY NAVIGATION ***** */
+.sticky .page-header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 150;
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+}
+
+.sticky .hero-section {
+  margin-top: 80px;
+}
