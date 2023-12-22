@@ -1,18 +1,27 @@
 {
   "name": "simply-chocolate",
+  "homepage": "https://github.com/Alexandrbig1/simply-chocolate",
   "version": "1.0.0",
   "description": "",
   "keywords": [
-    "simply-chocolate"
+    "simply-chocolate",
+    "html",
+    "css",
+    "chocolate",
+    "ecommerce",
+    "vite",
+    "javascript",
+    "web development",
+    "frontend",
+    "responsive"
   ],
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-    "build": "vite build --base=/simply-chocolate/",
+    "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist",
-    "predeploy": "rm -rf dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Alex Smagin",
   "license": "MIT",

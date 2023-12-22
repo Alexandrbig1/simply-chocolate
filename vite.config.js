@@ -4,12 +4,15 @@ import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig({
+  define: {
+    _global: {},
+  },
   root: 'src',
+  base: '/simply-chocolate/',
   build: {
     rollupOptions: {
       input: glob.sync('./src/*.html'),
     },
-    base: '/simply-chocolate/',
     outDir: '../dist',
   },
   plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
