@@ -6,3 +6,4 @@ import './js/modal.js';
 import './js/year';
 import './js/scroll-up.js';
 import './js/sticky-header.js';
+import './js/observer.js';

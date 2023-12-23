@@ -1,6 +1,8 @@
 {
   "name": "simply-chocolate",
   "homepage": "https://github.com/Alexandrbig1/simply-chocolate",
+  "author": "Alex Smagin",
+  "license": "MIT",
   "version": "1.0.0",
   "description": "Explore and purchase delicious chocolates with Simply Chocolate, the ultimate online chocolate shop. Indulge in a variety of sweets and confectionery.",
   "keywords": [
@@ -23,8 +25,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Alex Smagin",
-  "license": "MIT",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"

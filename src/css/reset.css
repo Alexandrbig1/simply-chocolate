@@ -64,9 +64,18 @@ img {
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
-  /* Щоб бачити рамки контейнера на етапі розробки */
-  /* outline: 2px solid red;
-  outline-offset: -2px; */
+}
+
+/* Section smooth appearing */
+section {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: opacity 500ms linear;
+}
+
+section.appear {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /*--- Tablet screen ---*/

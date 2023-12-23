@@ -7,7 +7,6 @@
 .chocolate-is-loved-section {
   background-color: var(--dark-white-color);
   padding-bottom: 72px;
-  /* padding-top: 72px; */
   padding-left: 0;
   padding-right: 0;
 }
@@ -45,7 +44,7 @@
   background-color: var(--dark-white-color);
 }
 
-.chocolate-is-loved-cnt > img {
+.chocolate-is-loved-cnt>img {
   border-radius: 50%;
   width: 80px;
   height: 80px;
@@ -122,8 +121,6 @@
   color: var(--white-color);
 }
 
-/* min-width:0; neede for the slider! */
-
 /* slider styles */
 
 .slick-dots li button:before {
@@ -176,7 +173,6 @@
   .chocolate-is-loved-title {
     font-size: 24px;
     line-height: 1.17;
-    /* margin-top: 100px; */
   }
 
   .chocolate-is-loved-button {
