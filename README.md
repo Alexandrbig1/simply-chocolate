@@ -2,7 +2,7 @@
 
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/your-energy-fitness-app)](https://github.com/Alexandrbig1/goal-craft/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/simply-chocolate)](https://github.com/Alexandrbig1/goal-craft/commits/main)
 [![JavaScript](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML](https://img.shields.io/badge/HTML5-<!DOCTYPE%20html>-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS3-styles-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -52,8 +52,9 @@ a modal window, enter personal data, and proceed to purchase.
 
 ## Screenshots
 
-![Studio Page](./src/img/simply-chocolate1.jpg) _Caption for Screenshot 1
-(simply-chocolate Home Page)_ ![Portfolio Page](./src/img/simply-chocolate2.jpg)
+![Home Page](./src/img/simply-chocolate1.jpg) _Caption for Screenshot 1
+(simply-chocolate Home Page)_ 
+![Home Page](./src/img/simply-chocolate2.jpg)
 _Caption for Screenshot 2 (simply-chocolate Home Page)_
 
 ## Issues
